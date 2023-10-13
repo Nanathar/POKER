@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+img {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1024px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.kontener {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.kontener div {
+  display: flex;
+  height: 49%;
+  width: 33%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.kontener div p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.kontener div button {
+  font-size: 20px;
+  margin: 10px auto 0;
+  padding: 3px 0;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: solid 2px black;
+  border-radius: 25px;
+  background-color: white;
+}
+.kontener div button:hover {
+  background-color: black;
+  color: white;
+}
+.kontener .utg {
+  background-color: red;
+}
+.kontener .hj {
+  background-color: green;
+}
+.kontener .cu {
+  background-color: blue;
+}
+.kontener .bu {
+  background-color: pink;
+}
+.kontener .sb {
+  background-color: yellow;
+}
+.kontener .bb {
+  background-color: orange;
+}
+.kontener .x {
+  margin: 50px;
+  background-color: grey;
+}
+.kontener .sb6,
+.kontener .sb7 {
+  background-color: #999999;
+}/*# sourceMappingURL=style.css.map */
